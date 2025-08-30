@@ -1,0 +1,41 @@
+# =================================================================
+# ElytraHeightLimit Configuration
+# Plugin Version: 1.0
+# =================================================================
+
+# The maximum Y-coordinate a player can fly at with an elytra.
+# Players flying above this Y-level will have their gliding cancelled.
+height-limit: 100
+
+# The message displayed on the action bar when a player exceeds the height limit.
+# You can use standard Minecraft color codes with the '&' character.
+limit-message: "&c&lWARNING: &fFlight height limit reached!"
+
+
+# =================================================================
+# Command Messages & Permissions
+# =================================================================
+#
+# Commands:
+#   /elytraheightlimit reload (Aliases: /ehl reload, /elr reload)
+#   - Reloads the configuration file.
+#   - Permission: elytraheightlimit.admin
+#
+# Bypass Permission:
+#   elytraheightlimit.bypass
+#   - Players with this permission will ignore the height limit entirely.
+#   - Recommended for admins or specific ranks.
+#
+# By default, both permissions are granted to server operators (OPs).
+# =================================================================
+
+messages:
+  # Message sent when a player does not have permission to use a command.
+  no-permission: "&cYou do not have permission to execute this command."
+
+  # Message sent to the command user upon a successful reload.
+  reload-success: "&a&lSUCCESS! &aThe plugin configuration has been reloaded."
+
+  # Message sent when a player uses a command incorrectly.
+  # The {label} placeholder will be replaced with the command alias used.
+  invalid-usage: "&cInvalid usage. Use: /{label} reload"

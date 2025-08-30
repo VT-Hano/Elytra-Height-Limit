@@ -1,0 +1,22 @@
+name: Elytra-Height-Limit
+version: 1.0
+main: hano.elytraheightlimit.ElytraHeightLimit
+api-version: 1.13
+author: vn.hano
+description: Limits the flight height of Elytra.
+
+commands:
+  elytraheightlimit:
+    description: Main command for the ElytraHeightLimit plugin.
+    usage: /<command> reload
+    aliases: [elr, ehl]
+    permission: elytraheightlimit.admin
+    permission-message: "§cYou do not have permission to use this command."
+
+permissions:
+  elytraheightlimit.admin:
+    description: Allows users to reload the plugin's configuration.
+    default: op
+  elytraheightlimit.bypass:
+    description: Allows users to bypass the elytra height limit.
+    default: op
