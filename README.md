@@ -32,7 +32,7 @@ All configuration is done in the `plugins/ElytraHeightLimit/config.yml` file.
 ```yml
 # =================================================================
 # ElytraHeightLimit Configuration
-# Plugin Version: 1.4.0
+# Plugin Version: 1.0.0
 # =================================================================
 
 # The maximum Y-coordinate a player can fly at with an elytra.
