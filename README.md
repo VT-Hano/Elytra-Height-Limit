@@ -19,7 +19,7 @@ A lightweight and simple plugin for Spigot/Paper servers, designed to control th
 
 ## 📦 Installation
 
-1.  Download the latest `.jar` file from the [Releases page](https://www.google.com/search?q=https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases).
+1.  Download the latest `.jar` file from the [Releases page](https://github.com/VT-Hano/Elytra-Height-Limit/releases/tag/release).
 2.  Place the downloaded `.jar` file into your server's `plugins` folder.
 3.  Restart or reload your server. The plugin will automatically generate the `config.yml` file.
 
@@ -89,6 +89,6 @@ messages:
 
 ## 🐛 Issues & Support
 
-If you encounter a bug or have a feature request, please create an **Issue** on the [GitHub Issues page](https://www.google.com/search?q=https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/issues).
+If you encounter a bug or have a feature request, please create an **Issue** on the [GitHub Issues page](https://github.com/VT-Hano/Elytra-Height-Limit/issues).
 
 -----
